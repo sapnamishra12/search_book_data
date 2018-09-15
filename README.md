@@ -18,6 +18,7 @@
 # User Aunthentication API
 
 * First get token with below cURL request :
+
   curl --request POST \
     --url http://localhost:3000/user_authentication \
     --header 'Cache-Control: no-cache' \
@@ -29,6 +30,7 @@
 # Search API
 
 * Pass token in header and call search api with below cURL request :
+
   curl --request GET \
     --url 'http://localhost:3000/search?search=Mark' \
     --header 'Authorization: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiNWI5YzhiNzUyN2U0ZGYxZTQ5YWJjN2JkIn0.-4mgETmp1o5S-Z2C71phUKDB24rh7oW9djtvebMeVWw' \
